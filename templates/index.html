@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Wafer Fault Detection</title>
+
+	<link rel="stylesheet" type="text/css" href="static/css/style.css">
+
+</head>
+<body>
+	<h1>Wafer Fault Detection Project</h1>
+	
+	<!-- Add form for user input of folder path -->
+	<form action="/train" method="post" onsubmit="showNewParagraph()">
+		<label for="folderPath">Enter the path of the folder containing the training wafer files</label><br>
+		<input type="text" id="folderPath" name="folderPath" placeholder="Enter training file path.."><br><br>
+		<input type="submit" value="Submit">
+	</form>
+	
+	<p id="new-paragraph" style="display:none;">Training is in progress.Please wait...</p>
+	  
+
+
+	
+	  <script>
+	  function showNewParagraph() {
+		var newParagraph = document.getElementById("new-paragraph");
+		newParagraph.style.display = "block";
+	  }
+	  </script>
+	  
+	
+</body>
+</html>
