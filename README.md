@@ -21,17 +21,23 @@ Apart from the training files, we require a "schema" file from the client that c
 - Name of the Columns and their datatype
 
 **User Interface**
+
 **Training Path Page**
+
 The training path page displays a form where user can enter the path of the training batch files.After submitting the form, the training pipeline will start at the moment itself.
 
 ![Training Path Page](./Documents/trainingpath.png)
 
 **Prediction Path Page**
+
 You will get the message as training pipeline successful if it is completed. Next, you need to enter the path of prediction batch files and submit the form.
+
 ![Prediction Path Page](./Documents/predictionpath.png)
 
 **Prediction Page**
+
 In this page, you get some of the predictions that is available in the csv file.
+
 ![Prediction Page](./Documents/predictionpage.png)
 
 **Tech used:**
